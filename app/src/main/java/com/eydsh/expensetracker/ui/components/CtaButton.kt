@@ -1,4 +1,4 @@
-package com.example.expensetracker.ui.components
+package com.eydsh.expensetracker.ui.components
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.height
@@ -12,8 +12,8 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.unit.dp
-import com.example.expensetracker.ui.theme.DarkPrimaryColor
-import com.example.expensetracker.ui.theme.PrimaryColor
+import com.eydsh.expensetracker.ui.theme.DarkPrimaryColor
+import com.eydsh.expensetracker.ui.theme.PrimaryColor
 
 @Composable
 fun CtaButton(

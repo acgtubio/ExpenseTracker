@@ -1,4 +1,4 @@
-package com.example.expensetracker.ui.theme
+package com.eydsh.expensetracker.ui.theme
 
 import android.app.Activity
 import android.os.Build

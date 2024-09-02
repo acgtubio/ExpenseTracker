@@ -1,4 +1,4 @@
-package com.example.expensetracker.ui.login
+package com.eydsh.expensetracker.ui.login
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Arrangement
@@ -21,7 +21,7 @@ import androidx.compose.ui.text.input.VisualTransformation
 import androidx.compose.ui.unit.dp
 import androidx.navigation.NavHostController
 import androidx.navigation.compose.rememberNavController
-import com.example.expensetracker.ui.components.CtaButton
+import com.eydsh.expensetracker.ui.components.CtaButton
 
 @Composable
 fun LoginScreen(

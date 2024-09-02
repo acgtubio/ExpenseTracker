@@ -1,4 +1,4 @@
-package com.example.expensetracker
+package com.eydsh.expensetracker
 
 import android.app.Application
 import dagger.hilt.android.HiltAndroidApp

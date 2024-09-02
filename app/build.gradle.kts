@@ -6,11 +6,11 @@ plugins {
 }
 
 android {
-    namespace = "com.example.expensetracker"
+    namespace = "com.eydsh.expensetracker"
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "com.example.expensetracker"
+        applicationId = "com.eydsh.expensetracker"
         minSdk = 29
         targetSdk = 34
         versionCode = 1
@@ -69,6 +69,10 @@ dependencies {
 
     // Navigation Compose
     implementation(libs.androidx.navigation.compose)
+
+    // Firebase
+    implementation(platform(libs.firebase.bom))
+    implementation(libs.firebase.auth)
 
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
